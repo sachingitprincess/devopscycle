@@ -1,0 +1,7 @@
+<server description="default servlet engine">
+    <!-- Enable features -->
+    <featureManager>
+        <feature>servlet-3.1</feature>
+    </featureManager>
+    <httpEndpoint host="*" httpPort="9085" httpsPort="-1"/>
+</server>
